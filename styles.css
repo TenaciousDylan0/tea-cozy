@@ -1,0 +1,133 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+}
+body {
+    background-color: black;
+
+    /*NAVIGATION*/
+}
+.header {
+    height: 69px;
+    border-bottom: solid 1px seashell;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    margin-top: -.5em;
+    z-index: 999;
+
+}
+.icon{
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.menu {
+    position:absolute;
+    top: 3px;
+    right: 50px;
+    font-size: 22px;
+}
+
+
+.navigation li {
+    display: inline;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+/*HERO BANNER*/
+.hero {
+    display: flex;
+    background: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1hq6un1*_ga*MzkyOTkzMTk0OS4xNjYzNDIxMTE0*_ga_3LRZM6TM9L*MTY2NjQ0ODA2MC4xMS4xLjE2NjY0NDgwODAuNDAuMC4w);
+    background-repeat: no-repeat;
+    height: 700px;
+    justify-content: center;
+    background-position: center;
+    margin: auto;
+}
+.herotext {
+    margin: auto;
+    background: black;
+    width: 100%;
+    text-align: center;
+}
+
+/*Tea of the Month*/
+.month {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;    
+    justify-content: center;
+   
+}
+.teamonthhead {
+    margin: auto;
+    background: black;
+    width: 100%;
+    text-align: center;
+}
+.teacards {
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: center;
+    width: 1000px;
+}
+
+.teahero {
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+}
+/*LOCATIONS*/
+
+
+.locationbox {
+    background: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*15q4do1*_ga*NTAxMTMyNDA0MC4xNjYzMTgzNDUx*_ga_3LRZM6TM9L*MTY2Njc4NDExMi40My4xLjE2NjY3ODQxMjcuNDUuMC4w);
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 40px auto 0px auto;
+    max-width: 1200px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+}
+.locationhead {
+    text-align: center;
+}
+
+.address {
+    display: flex;
+    width: 980px;
+    margin: 15px auto;
+    justify-content: space-between;
+}
+.addcard {
+    display: inline-block;
+    background-color: black;
+    opacity: .80;
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/*CONTACT*/
+
+.contact {
+    display: flex;
+    justify-content: center;
+
+    height: 200px;
+}
+
+.contactinfo {
+    text-align: center;
+}
+
+/*Foot*/
+.copy {
+    margin-left: 20px;
+    font-weight: bold;
+}
